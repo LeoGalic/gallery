@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+
+<style>
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: rgb(36, 33, 33);
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+    <header class="w3-display-container w3-content w3-center" style="max-width:2000px">
+        <img class="w3-image" src="roberto-nickson-b1ovoL_F1S8-unsplash.png" alt="Me" width="100%" height="100%">
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><strong>↑</strong></button>
+
+<div style="background-color:black;color:white;padding:30px;font-size: large;">Gallery</div>
+
+<div class="gallery">
+  <a target="_blank" href="pic1.jpg">
+    <img src="pic1.jpg" alt="Cinque Terre" width="867" height="650">
+  </a>
+
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="pic 2.jpg">
+    <img src="pic 2.jpg" alt="Forest" width="456" height="650">
+  </a>
+
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="pic 3.jpg">
+    <img src="pic 3.jpg" alt="Northern Lights" width="550" height="400">
+  </a>
+
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="pic 4.jpg">
+    <img src="pic 4.jpg" alt="Mountains" width="250" height="400">
+  </a>
+
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="pic 5.jpg">
+    <img src="pic 5.jpg" alt="Mountains" width="510" height="400">
+  </a>
+
+</div>
+<div class="gallery">
+  <a target="_blank" href="pic 6.jpg">
+    <img src="pic 6.jpg" alt="Mountains" width="900" height="700">
+  </a>
+
+</div>
+<div class="gallery">
+  <a target="_blank" href="pic 7.jpg">
+    <img src="pic 7.jpg" alt="Mountains" width="420" height="700">
+  </a>
+
+</div>
+
+</div>
+<div class="gallery">
+  <a target="_blank" href="pic 8.jpg">
+    <img src="pic 8.jpg" alt="Mountains" width="463" height="700">
+  </a>
+
+</div>
+</div>
+<div class="gallery">
+  <a target="_blank" href="pic 9.jpg">
+    <img src="pic 9.jpg" alt="Mountains" width="856" height="700">
+  </a>
+
+</div>
+
+
+
+
+</div>
+<div class="gallery">
+  <a target="_blank" href="pic 11.jpg">
+    <img src="pic 11.jpg" alt="Mountains" width="434" height="700">
+  </a>
+
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="pic 12.jpg">
+    <img src="pic 12.jpg" alt="Mountains" width="434" height="700">
+  </a>
+
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="pic 14.jpg">
+    <img src="pic 14.jpg" alt="Mountains" width="435" height="700">
+  </a>
+
+</div>
+
+</div>
+<div class="gallery">
+  <a target="_blank" href="pic 13.jpg">
+    <img src="pic 13.jpg" alt="Mountains" width="660" height="400">
+  </a>
+
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="pic 15.jpg">
+    <img src="pic 15.jpg" alt="Mountains" width="660" height="400">
+  </a>
+
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="pic 16.jpg">
+    <img src="pic 16.jpg" alt="Mountains" width="620" height="400">
+  </a>
+
+</div>
+
+
+<script>
+
+var mybutton = document.getElementById("myBtn");
+
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+        
+<script>
+
+    </script>
+</body>
+</html>
